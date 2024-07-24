@@ -29,10 +29,14 @@ program_selection() {
             PROGRAMS=(
               "alacritty" 
               "kitty"
+              "starship"
+              "zsh"
             )
             DESCRIPTIONS=(
               "Alacritty: A fast, GPU-accelerated terminal emulator."
               "Kitty: A modern, feature-rich terminal emulator."
+              "starship: A cross-shell prompt written in Rust."
+              "Zsh: (Z shell) is a powerful and versatile shell for Unix-like operating systems."
             )
             ;;
         "Appearance")
@@ -49,10 +53,12 @@ program_selection() {
             PROGRAMS=(
               "ranger" 
               "thunar"
+              "pcmanfm"
             )
             DESCRIPTIONS=(
               "Ranger: A terminal file manager with a curses interface."
               "Thunar: A lightweight file manager for Xfce."
+              "pcmanfm: A lightweight file manager."
             )
             ;;
         "Security")
@@ -107,10 +113,12 @@ program_selection() {
             PROGRAMS=(
               "hyprland" 
               "hyprpaper"
+              "wlogout"
             )
             DESCRIPTIONS=(
               "Hyprland: A dynamic tiling Wayland compositor."
               "Hyprpaper: A wallpaper utility for Hyprland."
+              "wlogout: A utility for logging out of a Wayland session."
             )
             ;;
         "Editors")
@@ -143,6 +151,8 @@ program_selection() {
               "devtools"
               "npm"
               "typescript-language-server"
+              "tldr"
+              "zoxide"
             )
             DESCRIPTIONS=(
               "Git: A version control system."
@@ -151,6 +161,8 @@ program_selection() {
               "Devtools: Tools and utilities for software development."
               "NPM: A package manager for JavaScript, used to manage and install Node.js packages."
               "TypeScript Language Server: Provides language support for TypeScript in editors."
+              "tldr: Simplified and community-driven man pages."
+              "zoxide: A faster way to navigate directories."
             )
             ;;
         "Bars")
