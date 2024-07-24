@@ -30,4 +30,3 @@ cd pias
 chmod +x pias.sh
 sh pias.sh
 ```
-
